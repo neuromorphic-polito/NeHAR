@@ -1,0 +1,55 @@
+{
+    "nni_network/LSTM_units_1/randint": {
+      "_type": "randint",
+      "_value": [
+        4,
+        512
+      ]
+    },
+    "nni_network/LSTM_Dropout_1/quniform": {
+      "_type": "quniform",
+      "_value": [
+        0.1,
+        0.8,
+        0.01
+      ]
+    },
+    "nni_network/LSTM_units_2/randint": {
+      "_type": "randint",
+      "_value": [
+        4,
+        512
+      ]
+    },
+    "nni_network/LSTM_l2_2/quniform": {
+      "_type": "quniform",
+      "_value": [
+        0,
+        0.01,
+        0.0001
+      ]
+    },
+    "nni_network/LSTM_Dropout_2/quniform": {
+      "_type": "quniform",
+      "_value": [
+        0.1,
+        0.8,
+        0.01
+      ]
+    },
+    "nni_network/lr/quniform": {
+      "_type": "quniform",
+      "_value": [
+        0.0001,
+        0.005,
+        0.0001
+      ]
+    },
+    "nni_network/batch_size/randint": {
+      "_type": "randint",
+      "_value": [
+        10,
+        200
+      ]
+    }
+  }

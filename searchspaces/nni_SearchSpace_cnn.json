@@ -1,0 +1,52 @@
+{
+    "nni_network/Conv1D_filters_1/randint": {
+      "_type": "randint",
+      "_value": [
+        4,
+        100
+      ]
+    },
+    "nni_network/Conv1D_filters_2/randint": {
+      "_type": "randint",
+      "_value": [
+        4,
+        100
+      ]
+    },
+    "nni_network/Conv1D_kernel_size_1/randint": {
+      "_type": "randint",
+      "_value": [
+        2,
+        5
+      ]
+    },
+    "nni_network/Conv1D_kernel_size_2/randint": {
+      "_type": "randint",
+      "_value": [
+        2,
+        5
+      ]
+    },
+    "nni_network/CNN_Dense_1/randint": {
+      "_type": "randint",
+      "_value": [
+        10,
+        100
+      ]
+    },
+    "nni_network/lr/quniform": {
+        "_type": "quniform",
+        "_value": [
+          0.00001,
+          0.005,
+          0.00001
+        ]
+      },  
+    "nni_network/batch_size/randint": {
+      "_type": "randint",
+      "_value": [
+        10,
+        200
+      ]
+    }
+  }

@@ -1,0 +1,19 @@
+authorName: Author
+experimentName: wisdm2_slmu_watch_subset2_40
+trialConcurrency: 1
+maxExecDuration: 20d
+maxTrialNum: 1000
+trainingServicePlatform: local
+searchSpacePath: ../searchspaces/nni_SearchSpace_slmu.json
+useAnnotation: false
+tuner:
+  builtinTunerName: Anneal
+  classArgs:
+    optimize_mode: maximize
+  gpuIndices: '1'
+trial:
+  command: python nni_slmu.py --device=watch --subset=2 --time_window=2
+  codeDir: ../experiments/
+  gpuNum: 1 # 0 if GPU is not available
+localConfig:
+  useActiveGpu: true

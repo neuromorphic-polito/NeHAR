@@ -1,0 +1,65 @@
+{
+  "units": {
+    "_type": "quniform",
+    "_value": [
+      50, 
+      300,
+      2
+    ]
+  },
+  "order": {
+    "_type": "quniform",
+    "_value": [
+      4,
+      200,
+      2
+    ]
+  },
+  "theta": {
+    "_type": "quniform",
+    "_value": [
+      0.1,
+      20,
+      0.1
+    ]
+  },
+  "synapse_in": {
+    "_type": "quniform",
+    "_value": [
+      1e-3,
+      1e-2,
+      1e-3
+    ]
+  },
+  "synapse_out": {
+    "_type": "quniform",
+    "_value": [
+      1e-3,
+      1e-2,
+      1e-3
+    ]
+  },
+  "minibatch": {
+    "_type": "randint",
+    "_value": [
+      100,
+      200
+    ]
+  },
+  "tau": {
+    "_type": "quniform",
+    "_value": [
+      1e-3,
+      0.1,
+      1e-3
+    ]
+  },
+  "lr": {
+    "_type": "quniform",
+    "_value": [
+      1e-5,
+      5e-3,
+      1e-5
+    ]
+  }      
+}

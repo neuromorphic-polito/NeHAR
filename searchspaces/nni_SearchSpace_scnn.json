@@ -1,0 +1,69 @@
+{
+  "nni_keras2snn_network/target_rate_0/randint": {
+    "_type": "randint",
+    "_value": [
+      1,
+      300
+    ]
+  },
+  "nni_keras2snn_network/target_rate_1/randint": {
+    "_type": "randint",
+    "_value": [
+      1,
+      300
+    ]
+  },
+  "nni_keras2snn_network/scale_firing_rates/randint": {
+    "_type": "randint",
+    "_value": [
+      1,
+      100
+    ]
+  },
+  "nni_keras2snn_network/reg_conv0/quniform": {
+    "_type": "quniform",
+    "_value": [
+      0,
+      1e-3,
+      1e-4
+    ]
+  },
+  "nni_keras2snn_network/reg_conv1/quniform": {
+    "_type": "quniform",
+    "_value": [
+      0,
+      1e-3,
+      1e-4
+    ]
+  },
+  "nni_keras2snn_network/n_steps/randint": {
+    "_type": "randint",
+    "_value": [
+      2,
+      20
+    ]
+  },
+  "nni_keras2snn_network/synapse/quniform": {
+    "_type": "quniform",
+    "_value": [
+      1e-3,
+      1e-2,
+      1e-3
+    ]
+  },
+  "nni_keras2snn_network/batch_size/randint": {
+    "_type": "randint",
+    "_value": [
+      10,
+      200
+    ]
+  },
+  "nni_keras2snn_network/lr/quniform": {
+    "_type": "quniform",
+    "_value": [
+      0.00001,
+      0.005,
+      0.00001
+    ]
+  }
+}
