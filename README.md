@@ -21,7 +21,7 @@ In the following, practical information to reproduce all the steps are provided.
 
 To clone the project:
 ```
-git clone https://github.com/xxxxx/yyyyy
+git clone https://github.com/neuromorphic-polito/NeHAR
 ```
 To reproduce and activate the (conda) environment:
 ```
