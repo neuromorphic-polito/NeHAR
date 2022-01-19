@@ -19,8 +19,7 @@ In the following, practical information to reproduce all the steps are provided.
 ## Reference
 
 Vittorio Fra, Evelina Forno, Riccardo Pignari, Terrence Stewart, Enrico Macii, and Gianvito Urgese:  
-Human activity recognition: suitability of a neuromorphic approach for on-edge AIoT applications. 
-
+Human activity recognition: suitability of a neuromorphic approach for on-edge AIoT applications.  
 Neuromorphic Computing and Engineering 2022.
 
 See article on [IOPscience](http://iopscience.iop.org/article/10.1088/2634-4386/ac4c38)
