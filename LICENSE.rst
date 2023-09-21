@@ -1,9 +1,9 @@
 BSD-License (3-clause)
 ======================
 
-| Copyright (c) 2021-2022, Gianvito Urgese, Politecnico di Torino
-| Copyright (c) 2021-2022, Vittorio Fra, Politecnico di Torino
-| Copyright (c) 2021-2022, Evelina Forno, Politecnico di Torino
+| Copyright (c) 2021-2023, Gianvito Urgese, Politecnico di Torino
+| Copyright (c) 2021-2023, Vittorio Fra, Politecnico di Torino
+| Copyright (c) 2021-2023, Evelina Forno, Politecnico di Torino
 | All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
